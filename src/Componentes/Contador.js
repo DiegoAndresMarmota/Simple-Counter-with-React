@@ -27,3 +27,19 @@ const SecondsCounter = (props) => {
       }
     }
   }
+  return (
+    <div className="app d-flex justify-content-center">
+      <div className="icon box">
+        <i className="far fa-clock"></i>
+      </div>
+      <div className="counter box">{cienMil}</div>
+      <div className="counter box">{diezMil}</div>
+      <div className="counter box">{mil}</div>
+      <div className="counter box">{cien}</div>
+      <div className="counter box">{diez}</div>
+      <div className="counter box">{unidad}</div>
+    </div>
+  );
+};
+
+export default SecondsCounter;
