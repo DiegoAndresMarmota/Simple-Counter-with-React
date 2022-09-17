@@ -1,15 +1,16 @@
 import React from "react";
 
-const SecondsCounter = (props) => {
-  let unidad = props.seconds;
+export const Contador = (props) => {
+  let unidad = props.segundos;
   let diez = 0;
   let cien = 0;
   let mil = 0;
   let diezMil = 0;
   let cienMil = 0;
-  if (props.seconds > 9) {
-    diez = Math.trunc(props.seconds / 10);
-    unidad = props.seconds % 10;
+
+  if (props.segundos > 9) {
+    diez = Math.trunc(props.segundos / 10);
+    unidad = props.segundos % 10;
     if (diez > 9) {
       cien = Math.trunc(diez / 10);
       diez = diez % 10;
@@ -41,5 +42,3 @@ const SecondsCounter = (props) => {
     </div>
   );
 };
-
-export default SecondsCounter;

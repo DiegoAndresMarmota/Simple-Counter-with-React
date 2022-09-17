@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import "bootstrap/dist/css/bootstrap.css";
+import { Contador } from "./Componentes/Contador";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+let contador = 0;
+
+setInterval(function () {
+  ReactDOM.render(
+    <Contador seconds={contador} />,
+    document.getElementById("root")
+  );
+  contador += 1;
+}, 1000);
