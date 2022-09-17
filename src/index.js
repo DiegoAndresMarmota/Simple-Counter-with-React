@@ -8,7 +8,7 @@ let contador = 0;
 
 setInterval(function () {
   ReactDOM.render(
-    <Contador seconds={contador} />,
+    <Contador segundos={contador} />,
     document.getElementById("root")
   );
   contador += 1;

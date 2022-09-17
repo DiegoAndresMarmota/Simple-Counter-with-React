@@ -30,15 +30,15 @@ export const Contador = (props) => {
   }
   return (
     <div className="app d-flex justify-content-center">
-      <div className="icon box">
+      <div className="icono caja">
         <i className="far fa-clock"></i>
       </div>
-      <div className="counter box">{cienMil}</div>
-      <div className="counter box">{diezMil}</div>
-      <div className="counter box">{mil}</div>
-      <div className="counter box">{cien}</div>
-      <div className="counter box">{diez}</div>
-      <div className="counter box">{unidad}</div>
+      <div className="contador caja">{cienMil}</div>
+      <div className="contador caja">{diezMil}</div>
+      <div className="contador caja">{mil}</div>
+      <div className="contador caja">{cien}</div>
+      <div className="contador caja">{diez}</div>
+      <div className="contador caja">{unidad}</div>
     </div>
   );
 };
