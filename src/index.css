@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  width: 100%;
+  background-color: black;
+  height: 180px;
+  color: rgb(250, 244, 244);
+  font-size: 110px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.caja {
+  display: inline-block;
+  height: 150px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.iconp {
+  width: 140px;
+}
+
+.contador {
+  width: 100px;
+  margin-left: 10px;
+}
