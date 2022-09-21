@@ -1,4 +1,4 @@
-.app {
+.app{
   width: 100%;
   background-color: black;
   height: 180px;
@@ -8,18 +8,18 @@
   padding-top: 10px;
 }
 
-.caja {
+.caja{
   display: inline-block;
   height: 150px;
   background-color: black;
   border-radius: 10px;
 }
 
-.icono {
-  width: 140px;
+.icono{
+  width: 130px;
 }
 
-.contador {
+.contador{
   width: 100px;
   margin-left: 10px;
 }
