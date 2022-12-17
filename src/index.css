@@ -1,25 +1,14 @@
-.app{
-  width: 100%;
-  background-color: black;
-  height: 180px;
-  color: rgb(250, 244, 244);
-  font-size: 110px;
+.bigCounter {
   text-align: center;
-  padding-top: 10px;
+  background: rgb(37, 20, 20);
 }
 
-.caja{
+.bigCounter div {
   display: inline-block;
-  height: 150px;
-  background-color: black;
-  border-radius: 10px;
-}
-
-.icono{
-  width: 130px;
-}
-
-.contador{
-  width: 100px;
-  margin-left: 10px;
+  font-size: 30px;
+  line-height: 30px;
+  background: rgb(176, 46, 46);
+  color: white;
+  padding: 50px;
+  margin: 10px;
 }
